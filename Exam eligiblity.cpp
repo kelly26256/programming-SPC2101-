@@ -1,7 +1,7 @@
 /*
 NAME:Kelly mwiti muriuki
 REG:CT100/G/26256/25
-DESCRIPTION:
+DESCRIPTION:c program to check exam eligiblity
 */
 
 #include <stdio.h>
@@ -27,4 +27,5 @@ int main(){
 		printf("You are not eligible for the final exam.");
 	}
 	return 0;
+
 }
