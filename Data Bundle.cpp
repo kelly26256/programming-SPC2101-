@@ -19,7 +19,8 @@ int main(){
 	//prompt user to enter their choice
 	printf("\n Enter your choice:\t");
 	scanf("%d", &choice);
-	
+
+	//switch case statement
 	switch(choice)
 	{
 	case 1:
@@ -40,4 +41,5 @@ int main(){
 	}
 	
 	return 0;
+
 }
