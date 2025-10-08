@@ -7,7 +7,7 @@ DESCRIPTION:lucky game
 #include <stdio.h>
 
 int main(){
-	int secret=5, guess, attempts=0;
+	int secret=5, guess, attempts=0;//variable declaration
 	
 	printf("The lucky number is between 1 and 10.\n");
 
@@ -34,3 +34,4 @@ int main(){
 	return 0;
 
 }
+
