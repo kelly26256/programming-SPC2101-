@@ -1,10 +1,19 @@
+/*
+NAME:Kelly Mwiti Muriuki
+REG. NO:CT100/G/26256/25
+DESCRIPTION:lucky game
+*/
+
 #include <stdio.h>
 
 int main(){
 	int secret=5, guess, attempts=0;
 	
 	printf("The lucky number is between 1 and 10.\n");
+
+	//excecute and check conditions
 	do{
+		//prompt the user to enter value
 	printf("Enter the lucky number to win:\t");
 	scanf("%d", &guess);
 	++attempts;
@@ -23,4 +32,5 @@ int main(){
 	
 	printf("It took you %d attempts to guess correctly", attempts);
 	return 0;
+
 }
